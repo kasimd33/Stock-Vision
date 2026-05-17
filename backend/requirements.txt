@@ -1,0 +1,13 @@
+flask
+flask-cors
+flask-jwt-extended
+python-dotenv
+pymongo
+bcrypt
+yfinance
+pandas
+numpy
+scikit-learn
+pytz
+requests
+google-genai
