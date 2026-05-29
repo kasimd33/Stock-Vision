@@ -1,7 +1,7 @@
 import { Link, useNavigate, useLocation } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import {
-  LayoutDashboard, TrendingUp, Bookmark, LogOut,
+  LayoutDashboard, Brain, Bookmark, LogOut,
   BarChart2, Menu, X, Briefcase, Newspaper, Settings, ChevronRight
 } from 'lucide-react'
 import { useState } from 'react'
@@ -50,7 +50,7 @@ export default function Sidebar() {
       <div className="px-5 py-5 border-b border-white/8">
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-orange-500 to-green-500 flex items-center justify-center shadow-lg shadow-orange-500/20">
-            <TrendingUp size={18} className="text-white" />
+            <Brain size={18} className="text-white" />
           </div>
           <div>
             <p className="text-white font-bold text-sm leading-none">StockVision</p>
@@ -102,7 +102,7 @@ export default function Sidebar() {
       <div className="md:hidden fixed top-0 left-0 right-0 z-40 bg-[#080d16]/95 backdrop-blur border-b border-white/8 px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-orange-500 to-green-500 flex items-center justify-center">
-            <TrendingUp size={14} className="text-white" />
+            <Brain size={14} className="text-white" />
           </div>
           <span className="text-white font-bold text-sm">StockVision <span className="text-orange-400">AI</span> 🇮🇳</span>
         </div>
