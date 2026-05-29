@@ -19,7 +19,7 @@ import toast from 'react-hot-toast'
 /* ── Static demo data for gainers/losers ── */
 const GAINERS = [
   { s: 'ADANIENT.NS',  n: 'Adani Ent',   chg: +3.42, price: '3,218' },
-  { s: 'TATAMOTORS.NS',n: 'Tata Motors', chg: +2.87, price: '1,042' },
+  { s: 'HFCL.NS',      n: 'HFCL',        chg: +2.87, price: '165' },
   { s: 'SUNPHARMA.NS', n: 'Sun Pharma',  chg: +2.11, price: '1,680' },
   { s: 'HCLTECH.NS',   n: 'HCL Tech',    chg: +1.95, price: '1,542' },
 ]
