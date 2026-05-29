@@ -42,8 +42,8 @@ const SECTORS = [
   {
     name: 'Automobiles', icon: '🚗', color: 'from-purple-600/20 to-purple-800/10', border: 'border-purple-500/20',
     stocks: [
-      { s: 'TATAMOTORS.NS', n: 'Tata Motors' }, { s: 'MARUTI.NS', n: 'Maruti Suzuki' }, { s: 'M&M.NS', n: 'M&M' },
-      { s: 'BAJAJ-AUTO.NS', n: 'Bajaj Auto' }, { s: 'HEROMOTOCO.NS', n: 'Hero MotoCorp' },
+      { s: 'MARUTI.NS', n: 'Maruti Suzuki' }, { s: 'M&M.NS', n: 'M&M' }, { s: 'BAJAJ-AUTO.NS', n: 'Bajaj Auto' },
+      { s: 'HEROMOTOCO.NS', n: 'Hero MotoCorp' }, { s: 'INDIANNIPPON.NS', n: 'Indian Nippon' },
     ],
   },
   {
