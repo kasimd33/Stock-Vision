@@ -100,7 +100,7 @@ def indices():
 # ── Gainers / Losers (static curated list with live prices) ──────────────────
 NIFTY50_SYMBOLS = [
     'RELIANCE.NS','TCS.NS','HDFCBANK.NS','INFY.NS','ICICIBANK.NS',
-    'WIPRO.NS','SBIN.NS','BAJFINANCE.NS','TATAMOTORS.NS','ADANIENT.NS',
+    'WIPRO.NS','SBIN.NS','BAJFINANCE.NS','BSE.NS','ADANIENT.NS',
     'SUNPHARMA.NS','HINDUNILVR.NS','ITC.NS','MARUTI.NS','NTPC.NS',
     'AXISBANK.NS','HCLTECH.NS','TECHM.NS','COALINDIA.NS','ONGC.NS',
 ]
